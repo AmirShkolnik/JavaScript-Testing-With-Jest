@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "jest": "^29.7.0"
+  },
+  "name": "memory-game",
+  "description": "![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmirShkolnik/memory-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmirShkolnik/memory-game/issues"
+  },
+  "homepage": "https://github.com/AmirShkolnik/memory-game#readme",
+  "devDependencies": {
+    "jest-environment-jsdom": "^29.7.0"
   }
 }
