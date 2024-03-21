@@ -6,14 +6,11 @@ let game = {
 };
 
 function newGame() {
-    game.score = 0;
     game.currentGame = [];
     game.playerMoves = [];
+    game.score = 0;
     showScore();
-}
-
-function showScore() {
-    document.getElementById("score").innerText = game.score;
+    addTurn();
 }
 
 function addTurn() {
@@ -22,4 +19,8 @@ function addTurn() {
     // showTurns();
 }
 
-module.exports = { game, newGame, showScore };
+function showScore() {
+    document.getElementById("score").innerText = game.score;
+}
+
+module.exports = { game, newGame, showScore, addTurn};
