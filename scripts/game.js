@@ -9,6 +9,7 @@ function newGame() {
     game.score = 0;
     game.currentGame = [];
     game.playerMoves = [];
+    showScore();
 }
 
-module.exports = { game, newGame };
+module.exports = { game, newGame, showScore };
