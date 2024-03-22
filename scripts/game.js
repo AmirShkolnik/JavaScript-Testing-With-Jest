@@ -7,9 +7,10 @@ let game = {
 };
 
 function newGame() {
-    game.score = 0;
     game.currentGame = [];
     game.playerMoves = [];
+    game.score = 0;
+
     for (let circle of document.getElementsByClassName("circle")) {
         if (circle.getAttribute("data-listener") !== "true") {
             circle.addEventListener("click", (e) => {
