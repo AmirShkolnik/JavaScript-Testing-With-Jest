@@ -44,9 +44,9 @@ function showTurns() {
 }
 
 function lightsOn(circ) {
-    document.getElementById(circ).classList.add("light");
+    document.getElementById(circ).classList.add(circ + "light");
     setTimeout(function () {
-        document.getElementById(circ).classList.remove("light");
+        document.getElementById(circ).classList.remove(circ + "light");
     }, 400);
 }
 
